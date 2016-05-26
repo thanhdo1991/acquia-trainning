@@ -2,8 +2,33 @@ name = ffw sub theme
 core = 7.x
 base theme = ffwbase
 
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
 ; Override ffbase.css file from base theme.
 stylesheets[all][] = css/ffwbase.css
 
-; Add a style sheet for all media
+; Add a style sheet for all media.
 stylesheets[all][] = css/style.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[page_top] = Page Top
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[footer] = Footer
+regions[page_bottom] = Page Bottom
+
+; Hidden region.
+;regions_hidden[] = content
+
+; CUSTOM REGIONS
+regions[banner_ad] = Banner Ad
+regions[navigation] = Navigation

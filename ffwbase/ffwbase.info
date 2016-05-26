@@ -1,5 +1,28 @@
 name = ffw base theme
 core = 7.x
+description = An example theme used to learn theme development.
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
 
 ; Add a style sheet for all media.
 stylesheets[all][] = css/ffwbase.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[page_top] = Page Top
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[footer] = Footer
+regions[page_bottom] = Page Bottom
+
+; CUSTOM REGIONS
+regions[banner_ad] = Banner Ad
+regions[navigation] = Navigation

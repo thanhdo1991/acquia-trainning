@@ -9,13 +9,13 @@
  */
 function ffwsub_preprocess_page(&$variables) {
   // Override style file from admin menu module.
-  $admin_menu_dir = drupal_get_path('theme', 'ffwsub') . '/css/admin_menu.css';
+  // $admin_menu_dir = drupal_get_path('theme', 'ffwsub') . '/css/admin_menu.css';
 
-  if (file_exists($admin_menu_dir)) {
-    drupal_add_css($admin_menu_dir);
-  }
+  // if (file_exists($admin_menu_dir)) {
+  //   drupal_add_css($admin_menu_dir);
+  // }
 
-  // Add font google by drupal_add_css..
+  // Add font google by drupal_add_css.
   drupal_add_css('//fonts.googleapis.com/css?family=Sancreek', array('type' => 'external'));
 
   // Style inline by drupal_add_css.
