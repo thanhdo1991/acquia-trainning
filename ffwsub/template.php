@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for ffwbase theme.
+ * Template for ffwsub theme.
  */
 
 /**
@@ -16,7 +16,7 @@ function ffwsub_preprocess_page(&$variables) {
   }
 
   // Add font google by drupal_add_css..
-  drupal_add_css('http://fonts.googleapis.com/css?family=Sancreek', array('type' => 'external'));
+  drupal_add_css('//fonts.googleapis.com/css?family=Sancreek', array('type' => 'external'));
 
   // Style inline by drupal_add_css.
   drupal_add_css('body {font-size: 20px;}', array('type' => 'inline'));
