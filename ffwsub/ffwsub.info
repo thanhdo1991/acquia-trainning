@@ -1,0 +1,9 @@
+name = ffw sub theme
+core = 7.x
+base theme = ffwbase
+
+; Override ffbase.css file from base theme.
+stylesheets[all][] = css/ffwbase.css
+
+; Add a style sheet for all media
+stylesheets[all][] = css/style.css

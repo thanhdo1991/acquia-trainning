@@ -1,0 +1,5 @@
+name = ffw base theme
+core = 7.x
+
+; Add a style sheet for all media.
+stylesheets[all][] = css/ffwbase.css
